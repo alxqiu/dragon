@@ -1,7 +1,7 @@
 from pointgen import pointgen
 from plot import graph_plot
 
-ITERATIONS = 4
+ITERATIONS = 6
 
 if __name__ == "__main__":
 
