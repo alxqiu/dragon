@@ -14,11 +14,16 @@ Tends to make diamond shaped "leaves" along a sparse "vine", although my intenti
 was to make triangular celled dragon fractals. I do enjoy looking at these however,
 and they form double dragons nicely.
 
-![Two 5th iteration 120s combined](media/120_5_double.PNG)
+![Two 5th iteration 120s combined](media/120_5_overlay.PNG)
 
 Iteration 5 120 dragons stacked on top of another.
 
+![Two 7th iteration 120s combined](media/120_7_overlay.PNG)
 
-![Two 7th iteration 120s combined](media/120_7_double.PNG)
+Iteration 7 120 dragons stacked on top of another. Note the 
+center fractal.
+
+
+![Two 7th iteration 120s aligned](media/120_7_end_align.PNG)
 
 Iteration 7 120 dragons aligned end to end.
