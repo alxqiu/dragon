@@ -3,19 +3,20 @@ Dragon fractal exploration with matplotlib to get creative with tattoo ideas.
 Attemping to try non-90 degree fractal generation and find unique cell structures
 apart from the normal square shape.
 
-Inspired by: https://archive.org/details/thefamilytreeoffractalcurves_201907
+Dragon curve is made by calculating the points comprising the base case of an
+L shape using three points and then using the 2D rotation matrix to perform 
+the rotation on a list of copies of those three points for a given angle. 
+I then translate and reverse the new points list such that the start of the 
+new list is the same as the end of the original. This process repeats until 
+the Nth iteration.
 
-The doubling is so far done by taking a snip of the plot, running it through
+The doubling is done by taking a snip of the plot, running it through
 Adobe background remover, and then attempting to combine them by hand with 
 powerpoint. I'm sure I could find the translation to make the doubling 
 mathematically perfect, but having powerpoint do it makes it much easier. 
 These are meant for my tattoos anyways so imperfection at that stage is fine.
 
-My approach is done by calculating the points comprising the base case of an
-L shape using three points and then using the 2D rotation matrix to perform 
-the rotation on a list of copies of those three points. I then translate and
-reverse the points list such that the start of the new list is the same as the
-end of the original. This process repeats until the Nth iteration.
+Inspired by: https://archive.org/details/thefamilytreeoffractalcurves_201907
 
 # 120 degrees
 Tends to make diamond shaped "leaves" along a sparse "vine", although my intention
