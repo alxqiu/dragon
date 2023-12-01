@@ -1,13 +1,13 @@
 # from turtle import *
 import math
 
-ANGLE_DEG = -90
+ANGLE_DEG = -120
 ANGLE_RAD = ANGLE_DEG * (math.pi / 180)
 
 # 2d rotation matrix
 MTX = [
-        [int(math.cos(ANGLE_RAD)), int(-math.sin(ANGLE_RAD))],
-        [int(math.sin(ANGLE_RAD)), int(math.cos(ANGLE_RAD))]
+        [math.cos(ANGLE_RAD), -math.sin(ANGLE_RAD)],
+        [math.sin(ANGLE_RAD), math.cos(ANGLE_RAD)]
     ]
 print(f"Rotation matrix:\n{MTX}")
 
@@ -35,7 +35,7 @@ def pointgen(n : int)->[[int, int]]:
         raise Exception("Unsupported")
     
     if n == 0:
-        return [[0, 0], [0, 1], [-1, 1]]
+        return [[0, 0], [0, 1], [-(math.sqrt(3) / 2), 1 / 2]]
     else:
         oldpts = list(pointgen(n - 1))
         newpts = rotatepts(oldpts)
