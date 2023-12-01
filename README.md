@@ -3,6 +3,8 @@ Dragon fractal exploration with matplotlib to get creative with tattoo ideas.
 Attemping to try non-90 degree fractal generation and find unique cell structures
 apart from the normal square shape.
 
+Inspired by: https://archive.org/details/thefamilytreeoffractalcurves_201907
+
 The doubling is so far done by taking a snip of the plot, running it through
 Adobe background remover, and then attempting to combine them by hand with 
 powerpoint. I'm sure I could find the translation to make the doubling 
